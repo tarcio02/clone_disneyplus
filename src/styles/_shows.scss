@@ -32,8 +32,10 @@
 
         @media (max-width: 768px) {
             white-space: nowrap;
-            overflow-x: scroll;
             padding-left: 20px;
+            
+            /*Foi retirado dessa linha a propiedade "overflow-x: scroll;"*/
+            /*pois deixava visivél uma rolagem de escroll nessa seção*/
         }
 
         &__button {

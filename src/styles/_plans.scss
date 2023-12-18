@@ -25,6 +25,11 @@
             max-width: 380px;
             width: 100%;
 
+            @media (max-width: 768px) {
+                /*a propiedade abaixo foi utilizada para centralizar os itens que ficaram descentralizadas*/
+                margin: 0 auto;
+            }
+
             &:nth-child(2) {
                 background-image: url(../images/fundo_combo_plus.png);
                 background-repeat: no-repeat;
